@@ -1,0 +1,67 @@
+.services {
+    background-color: #fff;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.services-swiper {
+    padding-bottom: 50px !important;
+}
+
+.service-card {
+    background: var(--color-bg-light);
+    padding: 40px 30px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.service-card:hover {
+    background: var(--color-white);
+    box-shadow: var(--shadow-soft);
+    transform: translateY(-10px);
+    border-color: var(--color-primary);
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: var(--color-dark);
+}
+
+.service-card p {
+    color: var(--color-text-light);
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+.service-link {
+    color: var(--color-secondary);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.service-link:hover {
+    color: var(--color-dark);
+}
+
+/* Swiper Pagination Styling */
+.swiper-pagination-bullet {
+    background: var(--color-secondary) !important;
+    opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
